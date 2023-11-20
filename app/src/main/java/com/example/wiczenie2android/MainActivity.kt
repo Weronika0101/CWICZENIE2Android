@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.reset -> {
                 // Resetowanie ustawień czcionki do domyślnych wartości
-                setPrefsFont(0) 
+                setPrefsFont(0)
                 recreate()
                 true
             }

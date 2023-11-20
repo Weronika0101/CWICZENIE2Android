@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">ĆWICZENIE2Android</string>
-    <string name="theme1">Theme 1</string>
-    <string name="theme2">Theme 2</string>
-    <string name="theme3">Theme 3</string>
+    <string name="theme1">Motyw 1</string>
+    <string name="theme2">Motyw 2</string>
+    <string name="theme3">Motyw 3</string>
+    <string name="rozmiar">Rozmiar czcionki</string>
+    <string name="styl">Styl czcionki</string>
+    <string name="font_large">Duża czcionka</string>
+    <string name="font_small">Mała czcionka</string>
 </resources>
