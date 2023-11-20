@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_comeback"
+        android:icon="@drawable/baseline_settings_backup_restore_24"
+        android:title="Comeback"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/reset"
+        android:icon="@drawable/baseline_format_color_reset_24"
+        android:title="Reset"
+        app:showAsAction="always" />
+
+    <!-- Second Icon with Expandable Menu -->
+    <item
+        android:id="@+id/action_expand"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="Expand"
+        app:showAsAction="always">
+
+        <!-- Submenu Items -->
+        <menu>
+            <item
+                android:id="@+id/ltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Large Text" />
+            <item
+                android:id="@+id/stext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:title="Small text" />
+            <item
+                android:id="@+id/action_option1"
+                android:title="Theme 1" />
+            <item
+                android:id="@+id/action_option2"
+                android:title="Theme 2" />
+            <item
+                android:id="@+id/action_option3"
+                android:title="Theme 3" />
+        </menu>
+    </item>
+</menu>
